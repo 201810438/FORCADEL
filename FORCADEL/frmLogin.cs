@@ -21,6 +21,7 @@ namespace FORCADEL
         {
             Menu MenuPrincial = new Menu();
             MenuPrincial.Show();
+            this.Close();
             
         }
 
