@@ -17,17 +17,19 @@ namespace FORCADEL
             InitializeComponent();
         }
 
-        private void btnAceptar_Click(object sender, EventArgs e)
+        public void btnAceptar_Click(object sender, EventArgs e)
         {
-            Menu MenuPrincial = new Menu();
+            MenusPrincipal MenuPrincial = new MenusPrincipal();
             MenuPrincial.Show();
             this.Close();
             
+            
         }
+        
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+           // btnAceptar.Show();
         }
 
         private void textBox1_Enter(object sender, EventArgs e)
