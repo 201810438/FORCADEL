@@ -16,5 +16,18 @@ namespace FORCADEL
         {
             InitializeComponent();
         }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            txtIdArticulos.Text = "";
+            txtCodigoArticulos.Text = "";
+            txtNombreArticulos.Text = "";
+            txtDescripcionArticulos.Text = "";
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

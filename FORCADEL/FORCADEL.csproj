@@ -120,11 +120,23 @@
     <EmbeddedResource Include="FormAgregarArticulos.resx">
       <DependentUpon>FormAgregarArticulos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormArticulosVendidos.resx">
+      <DependentUpon>FormArticulosVendidos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormElimiarClientes.resx">
       <DependentUpon>FormElimiarClientes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormEliminarArticulos.resx">
+      <DependentUpon>FormEliminarArticulos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormModificarArticulos.resx">
+      <DependentUpon>FormModificarArticulos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormModificarClientes.resx">
       <DependentUpon>FormModificarClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVendidoACliente.resx">
+      <DependentUpon>FormVendidoACliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>

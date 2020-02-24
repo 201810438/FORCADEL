@@ -58,9 +58,9 @@
             // 
             this.btnSalir.BackColor = System.Drawing.Color.White;
             this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.Location = new System.Drawing.Point(501, 235);
+            this.btnSalir.Location = new System.Drawing.Point(557, 230);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(85, 25);
+            this.btnSalir.Size = new System.Drawing.Size(104, 25);
             this.btnSalir.TabIndex = 41;
             this.btnSalir.Text = "SALIR ?";
             this.btnSalir.UseVisualStyleBackColor = false;
@@ -71,9 +71,9 @@
             this.btnLimpiar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnLimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLimpiar.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnLimpiar.Location = new System.Drawing.Point(334, 229);
+            this.btnLimpiar.Location = new System.Drawing.Point(289, 224);
             this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(129, 35);
+            this.btnLimpiar.Size = new System.Drawing.Size(171, 35);
             this.btnLimpiar.TabIndex = 40;
             this.btnLimpiar.Text = "LIMPIAR";
             this.btnLimpiar.UseVisualStyleBackColor = false;
@@ -84,9 +84,9 @@
             this.btnGuardar.BackColor = System.Drawing.Color.Blue;
             this.btnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnGuardar.Location = new System.Drawing.Point(171, 230);
+            this.btnGuardar.Location = new System.Drawing.Point(33, 225);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(119, 35);
+            this.btnGuardar.Size = new System.Drawing.Size(152, 35);
             this.btnGuardar.TabIndex = 39;
             this.btnGuardar.Text = "GUARDAR";
             this.btnGuardar.UseVisualStyleBackColor = false;
@@ -138,7 +138,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label5.Location = new System.Drawing.Point(26, 200);
+            this.label5.Location = new System.Drawing.Point(26, 192);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(189, 16);
             this.label5.TabIndex = 46;

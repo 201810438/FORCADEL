@@ -31,7 +31,7 @@
             this.panel1MENU = new System.Windows.Forms.Panel();
             this.panel1Ventas = new System.Windows.Forms.Panel();
             this.btnVendidoACliente = new System.Windows.Forms.Button();
-            this.btnArticulosVendidos = new System.Windows.Forms.Button();
+            this.btnArticulosFacturados = new System.Windows.Forms.Button();
             this.btnVentas = new System.Windows.Forms.Button();
             this.panel2Articulos = new System.Windows.Forms.Panel();
             this.btnElimiarArticulos = new System.Windows.Forms.Button();
@@ -82,7 +82,7 @@
             // panel1Ventas
             // 
             this.panel1Ventas.Controls.Add(this.btnVendidoACliente);
-            this.panel1Ventas.Controls.Add(this.btnArticulosVendidos);
+            this.panel1Ventas.Controls.Add(this.btnArticulosFacturados);
             this.panel1Ventas.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1Ventas.Location = new System.Drawing.Point(10, 447);
             this.panel1Ventas.Name = "panel1Ventas";
@@ -106,22 +106,22 @@
             this.btnVendidoACliente.UseVisualStyleBackColor = false;
             this.btnVendidoACliente.Click += new System.EventHandler(this.btnVendidoACliente_Click);
             // 
-            // btnArticulosVendidos
+            // btnArticulosFacturados
             // 
-            this.btnArticulosVendidos.BackColor = System.Drawing.SystemColors.WindowText;
-            this.btnArticulosVendidos.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnArticulosVendidos.FlatAppearance.BorderSize = 0;
-            this.btnArticulosVendidos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnArticulosVendidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnArticulosVendidos.ForeColor = System.Drawing.Color.Blue;
-            this.btnArticulosVendidos.Location = new System.Drawing.Point(0, 0);
-            this.btnArticulosVendidos.Name = "btnArticulosVendidos";
-            this.btnArticulosVendidos.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnArticulosVendidos.Size = new System.Drawing.Size(195, 33);
-            this.btnArticulosVendidos.TabIndex = 8;
-            this.btnArticulosVendidos.Text = "Articulos Vendidos";
-            this.btnArticulosVendidos.UseVisualStyleBackColor = false;
-            this.btnArticulosVendidos.Click += new System.EventHandler(this.btnArticulosVendidos_Click);
+            this.btnArticulosFacturados.BackColor = System.Drawing.SystemColors.WindowText;
+            this.btnArticulosFacturados.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnArticulosFacturados.FlatAppearance.BorderSize = 0;
+            this.btnArticulosFacturados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnArticulosFacturados.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnArticulosFacturados.ForeColor = System.Drawing.Color.Blue;
+            this.btnArticulosFacturados.Location = new System.Drawing.Point(0, 0);
+            this.btnArticulosFacturados.Name = "btnArticulosFacturados";
+            this.btnArticulosFacturados.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btnArticulosFacturados.Size = new System.Drawing.Size(195, 33);
+            this.btnArticulosFacturados.TabIndex = 8;
+            this.btnArticulosFacturados.Text = "Articulos Facturados";
+            this.btnArticulosFacturados.UseVisualStyleBackColor = false;
+            this.btnArticulosFacturados.Click += new System.EventHandler(this.btnArticulosVendidos_Click);
             // 
             // btnVentas
             // 
@@ -470,7 +470,7 @@
         private System.Windows.Forms.Button btnModificarArticulos;
         private System.Windows.Forms.Button btnAgregarArticulos;
         private System.Windows.Forms.Button btnVendidoACliente;
-        private System.Windows.Forms.Button btnArticulosVendidos;
+        private System.Windows.Forms.Button btnArticulosFacturados;
         private System.Windows.Forms.Button btnSalirSistema;
         private System.Windows.Forms.CheckBox checkBox1;
     }
