@@ -15,17 +15,20 @@ namespace FORCADEL
         public frmLogin()
         {
             InitializeComponent();
+
         }
 
         public void btnAceptar_Click(object sender, EventArgs e)
         {
             MenusPrincipal MenuPrincial = new MenusPrincipal();
             MenuPrincial.Show();
+           //this.Close();
+            
+            MenusPrincipal menu = new MenusPrincipal();
+            this.Hide();
+            menu.ShowDialog();
             this.Close();
-            
-            
         }
-        
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -62,6 +65,7 @@ namespace FORCADEL
                 textBox2.Text = "Clave";
                 textBox2.ForeColor = Color.White;
             }
+            
         }
 
         private void textBox2_Enter(object sender, EventArgs e)
@@ -71,6 +75,7 @@ namespace FORCADEL
                 textBox2.Text = "";
                 textBox2.ForeColor = Color.White;
             }
+             
         }
 
         private void pictureBoxCerrar_Click(object sender, EventArgs e)
@@ -81,6 +86,9 @@ namespace FORCADEL
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+            
         }
+        
     }
+
 }
