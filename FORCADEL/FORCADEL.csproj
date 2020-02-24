@@ -46,6 +46,54 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormAgregar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAgregar.Designer.cs">
+      <DependentUpon>FormAgregar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAgregarArticulos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAgregarArticulos.Designer.cs">
+      <DependentUpon>FormAgregarArticulos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormArticulosVendidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormArticulosVendidos.Designer.cs">
+      <DependentUpon>FormArticulosVendidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormElimiarClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormElimiarClientes.Designer.cs">
+      <DependentUpon>FormElimiarClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEliminarArticulos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEliminarArticulos.Designer.cs">
+      <DependentUpon>FormEliminarArticulos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormModificarArticulos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormModificarArticulos.Designer.cs">
+      <DependentUpon>FormModificarArticulos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormModificarClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormModificarClientes.Designer.cs">
+      <DependentUpon>FormModificarClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVendidoACliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVendidoACliente.Designer.cs">
+      <DependentUpon>FormVendidoACliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>

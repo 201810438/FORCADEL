@@ -72,6 +72,8 @@ namespace FORCADEL
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
+            Form fomulario = new FormAgregar();
+            fomulario.Show();
             hideMenu();
         }
 
@@ -82,11 +84,15 @@ namespace FORCADEL
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
+            Form formulario1 = new FormModificarClientes();
+            formulario1.Show();
             hideMenu();
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
+            Form fomrmulario2 = new FormElimiarClientes();
+            fomrmulario2.Show();
             hideMenu();
         }
 
@@ -97,16 +103,22 @@ namespace FORCADEL
 
         private void btnAgregarArticulos_Click(object sender, EventArgs e)
         {
+            Form fomulario3 = new FormAgregarArticulos();
+            fomulario3.Show();
             hideMenu();
         }
 
         private void btnModificarArticulos_Click(object sender, EventArgs e)
         {
+            Form fomulario4 = new FormModificarArticulos();
+            fomulario4.Show();
             hideMenu();
         }
 
         private void btnElimiarArticulos_Click(object sender, EventArgs e)
         {
+            Form formulario5 = new FormEliminarArticulos();
+            formulario5.Show();
             hideMenu();
         }
 
@@ -117,11 +129,15 @@ namespace FORCADEL
 
         private void btnArticulosVendidos_Click(object sender, EventArgs e)
         {
+            Form fomulario6 = new FormArticulosVendidos();
+            fomulario6.Show();
             hideMenu();
         }
 
         private void btnVendidoACliente_Click(object sender, EventArgs e)
         {
+            Form fomulario7 = new FormVendidoACliente();
+            fomulario7.Show();
             hideMenu();
         }
 
