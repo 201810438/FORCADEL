@@ -38,7 +38,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.radioVisitantes = new System.Windows.Forms.RadioButton();
             this.radioEmpleados = new System.Windows.Forms.RadioButton();
             this.panel1Ventas = new System.Windows.Forms.Panel();
@@ -53,10 +52,10 @@
             this.btnVendidoACliente = new System.Windows.Forms.Button();
             this.btnArticulosVendidos = new System.Windows.Forms.Button();
             this.btnSalirSistema = new System.Windows.Forms.Button();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.panel1MENU.SuspendLayout();
             this.panel2Articulos.SuspendLayout();
             this.panel2SubMenu.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.panel1Ventas.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -191,28 +190,11 @@
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "WWW.Forcadell.com";
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.radioVisitantes);
-            this.groupBox1.Controls.Add(this.radioEmpleados);
-            this.groupBox1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.ForeColor = System.Drawing.Color.Black;
-            this.groupBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.groupBox1.Location = new System.Drawing.Point(216, 157);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(0);
-            this.groupBox1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.groupBox1.Size = new System.Drawing.Size(121, 89);
-            this.groupBox1.TabIndex = 4;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Entrada";
-            // 
             // radioVisitantes
             // 
             this.radioVisitantes.AutoSize = true;
             this.radioVisitantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioVisitantes.Location = new System.Drawing.Point(13, 59);
+            this.radioVisitantes.Location = new System.Drawing.Point(281, 228);
             this.radioVisitantes.Name = "radioVisitantes";
             this.radioVisitantes.Size = new System.Drawing.Size(94, 20);
             this.radioVisitantes.TabIndex = 1;
@@ -225,7 +207,7 @@
             this.radioEmpleados.AutoSize = true;
             this.radioEmpleados.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioEmpleados.ForeColor = System.Drawing.Color.Black;
-            this.radioEmpleados.Location = new System.Drawing.Point(13, 17);
+            this.radioEmpleados.Location = new System.Drawing.Point(281, 168);
             this.radioEmpleados.Name = "radioEmpleados";
             this.radioEmpleados.Size = new System.Drawing.Size(105, 20);
             this.radioEmpleados.TabIndex = 0;
@@ -418,6 +400,16 @@
             this.btnSalirSistema.UseVisualStyleBackColor = false;
             this.btnSalirSistema.Click += new System.EventHandler(this.btnSalirSistema_Click);
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(281, 295);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(80, 17);
+            this.checkBox1.TabIndex = 7;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // MenusPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -425,9 +417,11 @@
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(578, 527);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.radioVisitantes);
             this.Controls.Add(this.btnSalirSistema);
+            this.Controls.Add(this.radioEmpleados);
             this.Controls.Add(this.btnAyuda);
-            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label1);
@@ -445,8 +439,6 @@
             this.panel1MENU.ResumeLayout(false);
             this.panel2Articulos.ResumeLayout(false);
             this.panel2SubMenu.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.panel1Ventas.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -467,7 +459,6 @@
         private System.Windows.Forms.LinkLabel linkLabel2;
         private System.Windows.Forms.RadioButton radioVisitantes;
         private System.Windows.Forms.RadioButton radioEmpleados;
-        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Panel panel1Ventas;
         private System.Windows.Forms.Button btnVentas;
         private System.Windows.Forms.Button btnAyuda;
@@ -480,5 +471,6 @@
         private System.Windows.Forms.Button btnVendidoACliente;
         private System.Windows.Forms.Button btnArticulosVendidos;
         private System.Windows.Forms.Button btnSalirSistema;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }

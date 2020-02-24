@@ -127,7 +127,7 @@ namespace FORCADEL
 
         private void btnAyuda_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Forcadell...!Gracias por se parte nuestro,,favor elegir una opcion");
+            MessageBox.Show("Forcadell...!Gracias por se parte nuestro,,favor elegir una opcion; use nuestro correo para informarnos ");
         }
 
         private void btnSalirSistema_Click(object sender, EventArgs e)
@@ -143,7 +143,10 @@ namespace FORCADEL
 
         private void radioVisitantes_CheckedChanged(object sender, EventArgs e)
         {
-            MessageBox.Show("favor vistar nuetra pagna www.Falcadell.com");
+            string visitas = "visitante";
+            MessageBox.Show(visitas);
+            //radioVisitantes.Visible = false;
+            hideMenu();
         }
     }
 }
