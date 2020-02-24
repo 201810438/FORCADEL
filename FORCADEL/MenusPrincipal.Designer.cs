@@ -29,34 +29,34 @@
         private void InitializeComponent()
         {
             this.panel1MENU = new System.Windows.Forms.Panel();
+            this.panel1Ventas = new System.Windows.Forms.Panel();
+            this.btnVendidoACliente = new System.Windows.Forms.Button();
+            this.btnArticulosVendidos = new System.Windows.Forms.Button();
+            this.btnVentas = new System.Windows.Forms.Button();
             this.panel2Articulos = new System.Windows.Forms.Panel();
+            this.btnElimiarArticulos = new System.Windows.Forms.Button();
+            this.btnModificarArticulos = new System.Windows.Forms.Button();
+            this.btnAgregarArticulos = new System.Windows.Forms.Button();
             this.btnListaArticulos = new System.Windows.Forms.Button();
             this.panel2SubMenu = new System.Windows.Forms.Panel();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnModificar = new System.Windows.Forms.Button();
+            this.btnAgregar = new System.Windows.Forms.Button();
             this.btnClientes = new System.Windows.Forms.Button();
-            this.panel1Principal = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.radioVisitantes = new System.Windows.Forms.RadioButton();
             this.radioEmpleados = new System.Windows.Forms.RadioButton();
-            this.panel1Ventas = new System.Windows.Forms.Panel();
-            this.btnVentas = new System.Windows.Forms.Button();
             this.btnAyuda = new System.Windows.Forms.Button();
-            this.btnEliminar = new System.Windows.Forms.Button();
-            this.btnModificar = new System.Windows.Forms.Button();
-            this.btnAgregar = new System.Windows.Forms.Button();
-            this.btnElimiarArticulos = new System.Windows.Forms.Button();
-            this.btnModificarArticulos = new System.Windows.Forms.Button();
-            this.btnAgregarArticulos = new System.Windows.Forms.Button();
-            this.btnVendidoACliente = new System.Windows.Forms.Button();
-            this.btnArticulosVendidos = new System.Windows.Forms.Button();
             this.btnSalirSistema = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.panel1Principal = new System.Windows.Forms.Panel();
             this.panel1MENU.SuspendLayout();
+            this.panel1Ventas.SuspendLayout();
             this.panel2Articulos.SuspendLayout();
             this.panel2SubMenu.SuspendLayout();
-            this.panel1Ventas.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1MENU
@@ -79,6 +79,65 @@
             this.panel1MENU.TabIndex = 0;
             this.panel1MENU.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1MENU_Paint);
             // 
+            // panel1Ventas
+            // 
+            this.panel1Ventas.Controls.Add(this.btnVendidoACliente);
+            this.panel1Ventas.Controls.Add(this.btnArticulosVendidos);
+            this.panel1Ventas.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1Ventas.Location = new System.Drawing.Point(10, 447);
+            this.panel1Ventas.Name = "panel1Ventas";
+            this.panel1Ventas.Size = new System.Drawing.Size(195, 74);
+            this.panel1Ventas.TabIndex = 5;
+            // 
+            // btnVendidoACliente
+            // 
+            this.btnVendidoACliente.BackColor = System.Drawing.SystemColors.WindowText;
+            this.btnVendidoACliente.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnVendidoACliente.FlatAppearance.BorderSize = 0;
+            this.btnVendidoACliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVendidoACliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVendidoACliente.ForeColor = System.Drawing.Color.Blue;
+            this.btnVendidoACliente.Location = new System.Drawing.Point(0, 33);
+            this.btnVendidoACliente.Name = "btnVendidoACliente";
+            this.btnVendidoACliente.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btnVendidoACliente.Size = new System.Drawing.Size(195, 33);
+            this.btnVendidoACliente.TabIndex = 9;
+            this.btnVendidoACliente.Text = "Vendido A Cliente";
+            this.btnVendidoACliente.UseVisualStyleBackColor = false;
+            this.btnVendidoACliente.Click += new System.EventHandler(this.btnVendidoACliente_Click);
+            // 
+            // btnArticulosVendidos
+            // 
+            this.btnArticulosVendidos.BackColor = System.Drawing.SystemColors.WindowText;
+            this.btnArticulosVendidos.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnArticulosVendidos.FlatAppearance.BorderSize = 0;
+            this.btnArticulosVendidos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnArticulosVendidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnArticulosVendidos.ForeColor = System.Drawing.Color.Blue;
+            this.btnArticulosVendidos.Location = new System.Drawing.Point(0, 0);
+            this.btnArticulosVendidos.Name = "btnArticulosVendidos";
+            this.btnArticulosVendidos.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btnArticulosVendidos.Size = new System.Drawing.Size(195, 33);
+            this.btnArticulosVendidos.TabIndex = 8;
+            this.btnArticulosVendidos.Text = "Articulos Vendidos";
+            this.btnArticulosVendidos.UseVisualStyleBackColor = false;
+            this.btnArticulosVendidos.Click += new System.EventHandler(this.btnArticulosVendidos_Click);
+            // 
+            // btnVentas
+            // 
+            this.btnVentas.BackColor = System.Drawing.Color.Red;
+            this.btnVentas.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnVentas.Font = new System.Drawing.Font("Felix Titling", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVentas.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnVentas.Location = new System.Drawing.Point(10, 402);
+            this.btnVentas.Name = "btnVentas";
+            this.btnVentas.Padding = new System.Windows.Forms.Padding(4, 0, 0, 0);
+            this.btnVentas.Size = new System.Drawing.Size(195, 45);
+            this.btnVentas.TabIndex = 5;
+            this.btnVentas.Text = "Ventas";
+            this.btnVentas.UseVisualStyleBackColor = false;
+            this.btnVentas.Click += new System.EventHandler(this.btnVentas_Click);
+            // 
             // panel2Articulos
             // 
             this.panel2Articulos.Controls.Add(this.btnElimiarArticulos);
@@ -89,6 +148,57 @@
             this.panel2Articulos.Name = "panel2Articulos";
             this.panel2Articulos.Size = new System.Drawing.Size(195, 92);
             this.panel2Articulos.TabIndex = 4;
+            // 
+            // btnElimiarArticulos
+            // 
+            this.btnElimiarArticulos.BackColor = System.Drawing.SystemColors.WindowText;
+            this.btnElimiarArticulos.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnElimiarArticulos.FlatAppearance.BorderSize = 0;
+            this.btnElimiarArticulos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnElimiarArticulos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnElimiarArticulos.ForeColor = System.Drawing.Color.White;
+            this.btnElimiarArticulos.Location = new System.Drawing.Point(0, 61);
+            this.btnElimiarArticulos.Name = "btnElimiarArticulos";
+            this.btnElimiarArticulos.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btnElimiarArticulos.Size = new System.Drawing.Size(195, 27);
+            this.btnElimiarArticulos.TabIndex = 11;
+            this.btnElimiarArticulos.Text = "Eliminar Articulos";
+            this.btnElimiarArticulos.UseVisualStyleBackColor = false;
+            this.btnElimiarArticulos.Click += new System.EventHandler(this.btnElimiarArticulos_Click);
+            // 
+            // btnModificarArticulos
+            // 
+            this.btnModificarArticulos.BackColor = System.Drawing.SystemColors.WindowText;
+            this.btnModificarArticulos.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnModificarArticulos.FlatAppearance.BorderSize = 0;
+            this.btnModificarArticulos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnModificarArticulos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnModificarArticulos.ForeColor = System.Drawing.Color.White;
+            this.btnModificarArticulos.Location = new System.Drawing.Point(0, 33);
+            this.btnModificarArticulos.Name = "btnModificarArticulos";
+            this.btnModificarArticulos.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btnModificarArticulos.Size = new System.Drawing.Size(195, 28);
+            this.btnModificarArticulos.TabIndex = 10;
+            this.btnModificarArticulos.Text = "Modificar Articulos";
+            this.btnModificarArticulos.UseVisualStyleBackColor = false;
+            this.btnModificarArticulos.Click += new System.EventHandler(this.btnModificarArticulos_Click);
+            // 
+            // btnAgregarArticulos
+            // 
+            this.btnAgregarArticulos.BackColor = System.Drawing.SystemColors.WindowText;
+            this.btnAgregarArticulos.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnAgregarArticulos.FlatAppearance.BorderSize = 0;
+            this.btnAgregarArticulos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAgregarArticulos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarArticulos.ForeColor = System.Drawing.Color.White;
+            this.btnAgregarArticulos.Location = new System.Drawing.Point(0, 0);
+            this.btnAgregarArticulos.Name = "btnAgregarArticulos";
+            this.btnAgregarArticulos.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btnAgregarArticulos.Size = new System.Drawing.Size(195, 33);
+            this.btnAgregarArticulos.TabIndex = 9;
+            this.btnAgregarArticulos.Text = "Agregar Articulos";
+            this.btnAgregarArticulos.UseVisualStyleBackColor = false;
+            this.btnAgregarArticulos.Click += new System.EventHandler(this.btnAgregarArticulos_Click);
             // 
             // btnListaArticulos
             // 
@@ -117,10 +227,63 @@
             this.panel2SubMenu.Size = new System.Drawing.Size(195, 120);
             this.panel2SubMenu.TabIndex = 2;
             // 
+            // btnEliminar
+            // 
+            this.btnEliminar.BackColor = System.Drawing.SystemColors.WindowText;
+            this.btnEliminar.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnEliminar.FlatAppearance.BorderSize = 0;
+            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminar.ForeColor = System.Drawing.Color.Red;
+            this.btnEliminar.Location = new System.Drawing.Point(0, 80);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btnEliminar.Size = new System.Drawing.Size(195, 40);
+            this.btnEliminar.TabIndex = 2;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
+            // btnModificar
+            // 
+            this.btnModificar.BackColor = System.Drawing.SystemColors.WindowText;
+            this.btnModificar.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnModificar.FlatAppearance.BorderSize = 0;
+            this.btnModificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnModificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnModificar.ForeColor = System.Drawing.Color.Red;
+            this.btnModificar.Location = new System.Drawing.Point(0, 40);
+            this.btnModificar.Name = "btnModificar";
+            this.btnModificar.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btnModificar.Size = new System.Drawing.Size(195, 40);
+            this.btnModificar.TabIndex = 1;
+            this.btnModificar.Text = "Modificar";
+            this.btnModificar.UseVisualStyleBackColor = false;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
+            // 
+            // btnAgregar
+            // 
+            this.btnAgregar.BackColor = System.Drawing.SystemColors.WindowText;
+            this.btnAgregar.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnAgregar.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnAgregar.FlatAppearance.BorderSize = 0;
+            this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregar.ForeColor = System.Drawing.Color.Red;
+            this.btnAgregar.Location = new System.Drawing.Point(0, 0);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btnAgregar.Size = new System.Drawing.Size(195, 40);
+            this.btnAgregar.TabIndex = 0;
+            this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.UseVisualStyleBackColor = false;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            // 
             // btnClientes
             // 
             this.btnClientes.BackColor = System.Drawing.Color.Green;
             this.btnClientes.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnClientes.FlatAppearance.BorderSize = 0;
             this.btnClientes.Font = new System.Drawing.Font("Felix Titling", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClientes.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btnClientes.Location = new System.Drawing.Point(10, 100);
@@ -131,17 +294,6 @@
             this.btnClientes.Text = "Cartera de Clientes";
             this.btnClientes.UseVisualStyleBackColor = false;
             this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
-            // 
-            // panel1Principal
-            // 
-            this.panel1Principal.BackgroundImage = global::FORCADEL.Properties.Resources.FORCADELL3;
-            this.panel1Principal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1Principal.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1Principal.Location = new System.Drawing.Point(10, 0);
-            this.panel1Principal.Name = "panel1Principal";
-            this.panel1Principal.Size = new System.Drawing.Size(195, 100);
-            this.panel1Principal.TabIndex = 0;
-            this.panel1Principal.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label1
             // 
@@ -215,31 +367,6 @@
             this.radioEmpleados.UseVisualStyleBackColor = true;
             this.radioEmpleados.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
-            // panel1Ventas
-            // 
-            this.panel1Ventas.Controls.Add(this.btnVendidoACliente);
-            this.panel1Ventas.Controls.Add(this.btnArticulosVendidos);
-            this.panel1Ventas.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1Ventas.Location = new System.Drawing.Point(10, 447);
-            this.panel1Ventas.Name = "panel1Ventas";
-            this.panel1Ventas.Size = new System.Drawing.Size(195, 74);
-            this.panel1Ventas.TabIndex = 5;
-            // 
-            // btnVentas
-            // 
-            this.btnVentas.BackColor = System.Drawing.Color.Red;
-            this.btnVentas.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnVentas.Font = new System.Drawing.Font("Felix Titling", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVentas.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnVentas.Location = new System.Drawing.Point(10, 402);
-            this.btnVentas.Name = "btnVentas";
-            this.btnVentas.Padding = new System.Windows.Forms.Padding(4, 0, 0, 0);
-            this.btnVentas.Size = new System.Drawing.Size(195, 45);
-            this.btnVentas.TabIndex = 5;
-            this.btnVentas.Text = "Ventas";
-            this.btnVentas.UseVisualStyleBackColor = false;
-            this.btnVentas.Click += new System.EventHandler(this.btnVentas_Click);
-            // 
             // btnAyuda
             // 
             this.btnAyuda.Location = new System.Drawing.Point(477, 453);
@@ -249,143 +376,6 @@
             this.btnAyuda.Text = "Ayuda ?";
             this.btnAyuda.UseVisualStyleBackColor = true;
             this.btnAyuda.Click += new System.EventHandler(this.btnAyuda_Click);
-            // 
-            // btnEliminar
-            // 
-            this.btnEliminar.BackColor = System.Drawing.SystemColors.WindowText;
-            this.btnEliminar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnEliminar.FlatAppearance.BorderSize = 0;
-            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.ForeColor = System.Drawing.Color.Red;
-            this.btnEliminar.Location = new System.Drawing.Point(0, 80);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnEliminar.Size = new System.Drawing.Size(195, 40);
-            this.btnEliminar.TabIndex = 2;
-            this.btnEliminar.Text = "Eliminar";
-            this.btnEliminar.UseVisualStyleBackColor = false;
-            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
-            // 
-            // btnModificar
-            // 
-            this.btnModificar.BackColor = System.Drawing.SystemColors.WindowText;
-            this.btnModificar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnModificar.FlatAppearance.BorderSize = 0;
-            this.btnModificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnModificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModificar.ForeColor = System.Drawing.Color.Red;
-            this.btnModificar.Location = new System.Drawing.Point(0, 40);
-            this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnModificar.Size = new System.Drawing.Size(195, 40);
-            this.btnModificar.TabIndex = 1;
-            this.btnModificar.Text = "Modificar";
-            this.btnModificar.UseVisualStyleBackColor = false;
-            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
-            // 
-            // btnAgregar
-            // 
-            this.btnAgregar.BackColor = System.Drawing.SystemColors.WindowText;
-            this.btnAgregar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnAgregar.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnAgregar.FlatAppearance.BorderSize = 0;
-            this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.ForeColor = System.Drawing.Color.Red;
-            this.btnAgregar.Location = new System.Drawing.Point(0, 0);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnAgregar.Size = new System.Drawing.Size(195, 40);
-            this.btnAgregar.TabIndex = 0;
-            this.btnAgregar.Text = "Agregar";
-            this.btnAgregar.UseVisualStyleBackColor = false;
-            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
-            // 
-            // btnElimiarArticulos
-            // 
-            this.btnElimiarArticulos.BackColor = System.Drawing.SystemColors.WindowText;
-            this.btnElimiarArticulos.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnElimiarArticulos.FlatAppearance.BorderSize = 0;
-            this.btnElimiarArticulos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnElimiarArticulos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnElimiarArticulos.ForeColor = System.Drawing.Color.White;
-            this.btnElimiarArticulos.Location = new System.Drawing.Point(0, 61);
-            this.btnElimiarArticulos.Name = "btnElimiarArticulos";
-            this.btnElimiarArticulos.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnElimiarArticulos.Size = new System.Drawing.Size(195, 27);
-            this.btnElimiarArticulos.TabIndex = 11;
-            this.btnElimiarArticulos.Text = "Eliminar Articulos";
-            this.btnElimiarArticulos.UseVisualStyleBackColor = false;
-            this.btnElimiarArticulos.Click += new System.EventHandler(this.btnElimiarArticulos_Click);
-            // 
-            // btnModificarArticulos
-            // 
-            this.btnModificarArticulos.BackColor = System.Drawing.SystemColors.WindowText;
-            this.btnModificarArticulos.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnModificarArticulos.FlatAppearance.BorderSize = 0;
-            this.btnModificarArticulos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnModificarArticulos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModificarArticulos.ForeColor = System.Drawing.Color.White;
-            this.btnModificarArticulos.Location = new System.Drawing.Point(0, 33);
-            this.btnModificarArticulos.Name = "btnModificarArticulos";
-            this.btnModificarArticulos.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnModificarArticulos.Size = new System.Drawing.Size(195, 28);
-            this.btnModificarArticulos.TabIndex = 10;
-            this.btnModificarArticulos.Text = "Modificar Articulos";
-            this.btnModificarArticulos.UseVisualStyleBackColor = false;
-            this.btnModificarArticulos.Click += new System.EventHandler(this.btnModificarArticulos_Click);
-            // 
-            // btnAgregarArticulos
-            // 
-            this.btnAgregarArticulos.BackColor = System.Drawing.SystemColors.WindowText;
-            this.btnAgregarArticulos.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnAgregarArticulos.FlatAppearance.BorderSize = 0;
-            this.btnAgregarArticulos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAgregarArticulos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregarArticulos.ForeColor = System.Drawing.Color.White;
-            this.btnAgregarArticulos.Location = new System.Drawing.Point(0, 0);
-            this.btnAgregarArticulos.Name = "btnAgregarArticulos";
-            this.btnAgregarArticulos.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnAgregarArticulos.Size = new System.Drawing.Size(195, 33);
-            this.btnAgregarArticulos.TabIndex = 9;
-            this.btnAgregarArticulos.Text = "Agregar Articulos";
-            this.btnAgregarArticulos.UseVisualStyleBackColor = false;
-            this.btnAgregarArticulos.Click += new System.EventHandler(this.btnAgregarArticulos_Click);
-            // 
-            // btnVendidoACliente
-            // 
-            this.btnVendidoACliente.BackColor = System.Drawing.SystemColors.WindowText;
-            this.btnVendidoACliente.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnVendidoACliente.FlatAppearance.BorderSize = 0;
-            this.btnVendidoACliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVendidoACliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVendidoACliente.ForeColor = System.Drawing.Color.Blue;
-            this.btnVendidoACliente.Location = new System.Drawing.Point(0, 33);
-            this.btnVendidoACliente.Name = "btnVendidoACliente";
-            this.btnVendidoACliente.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnVendidoACliente.Size = new System.Drawing.Size(195, 33);
-            this.btnVendidoACliente.TabIndex = 9;
-            this.btnVendidoACliente.Text = "Vendido A Cliente";
-            this.btnVendidoACliente.UseVisualStyleBackColor = false;
-            this.btnVendidoACliente.Click += new System.EventHandler(this.btnVendidoACliente_Click);
-            // 
-            // btnArticulosVendidos
-            // 
-            this.btnArticulosVendidos.BackColor = System.Drawing.SystemColors.WindowText;
-            this.btnArticulosVendidos.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnArticulosVendidos.FlatAppearance.BorderSize = 0;
-            this.btnArticulosVendidos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnArticulosVendidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnArticulosVendidos.ForeColor = System.Drawing.Color.Blue;
-            this.btnArticulosVendidos.Location = new System.Drawing.Point(0, 0);
-            this.btnArticulosVendidos.Name = "btnArticulosVendidos";
-            this.btnArticulosVendidos.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnArticulosVendidos.Size = new System.Drawing.Size(195, 33);
-            this.btnArticulosVendidos.TabIndex = 8;
-            this.btnArticulosVendidos.Text = "Articulos Vendidos";
-            this.btnArticulosVendidos.UseVisualStyleBackColor = false;
-            this.btnArticulosVendidos.Click += new System.EventHandler(this.btnArticulosVendidos_Click);
             // 
             // btnSalirSistema
             // 
@@ -409,6 +399,17 @@
             this.checkBox1.TabIndex = 7;
             this.checkBox1.Text = "checkBox1";
             this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // panel1Principal
+            // 
+            this.panel1Principal.BackgroundImage = global::FORCADEL.Properties.Resources.FORCADELL3;
+            this.panel1Principal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1Principal.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1Principal.Location = new System.Drawing.Point(10, 0);
+            this.panel1Principal.Name = "panel1Principal";
+            this.panel1Principal.Size = new System.Drawing.Size(195, 100);
+            this.panel1Principal.TabIndex = 0;
+            this.panel1Principal.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // MenusPrincipal
             // 
@@ -437,9 +438,9 @@
             this.Text = "MenusPrincipal";
             this.Load += new System.EventHandler(this.MenusPrincipal_Load);
             this.panel1MENU.ResumeLayout(false);
+            this.panel1Ventas.ResumeLayout(false);
             this.panel2Articulos.ResumeLayout(false);
             this.panel2SubMenu.ResumeLayout(false);
-            this.panel1Ventas.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 

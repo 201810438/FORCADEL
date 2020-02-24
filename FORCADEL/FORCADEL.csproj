@@ -114,6 +114,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAgregar.resx">
+      <DependentUpon>FormAgregar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormElimiarClientes.resx">
+      <DependentUpon>FormElimiarClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormModificarClientes.resx">
+      <DependentUpon>FormModificarClientes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
