@@ -117,6 +117,9 @@
     <EmbeddedResource Include="FormAgregar.resx">
       <DependentUpon>FormAgregar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormAgregarArticulos.resx">
+      <DependentUpon>FormAgregarArticulos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormElimiarClientes.resx">
       <DependentUpon>FormElimiarClientes.cs</DependentUpon>
     </EmbeddedResource>
