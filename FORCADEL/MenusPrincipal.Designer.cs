@@ -43,6 +43,7 @@
             this.btnModificar = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.btnClientes = new System.Windows.Forms.Button();
+            this.panel1Principal = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
@@ -51,8 +52,6 @@
             this.radioEmpleados = new System.Windows.Forms.RadioButton();
             this.btnAyuda = new System.Windows.Forms.Button();
             this.btnSalirSistema = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.panel1Principal = new System.Windows.Forms.Panel();
             this.panel1MENU.SuspendLayout();
             this.panel1Ventas.SuspendLayout();
             this.panel2Articulos.SuspendLayout();
@@ -295,6 +294,17 @@
             this.btnClientes.UseVisualStyleBackColor = false;
             this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
             // 
+            // panel1Principal
+            // 
+            this.panel1Principal.BackgroundImage = global::FORCADEL.Properties.Resources.FORCADELL3;
+            this.panel1Principal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1Principal.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1Principal.Location = new System.Drawing.Point(10, 0);
+            this.panel1Principal.Name = "panel1Principal";
+            this.panel1Principal.Size = new System.Drawing.Size(195, 100);
+            this.panel1Principal.TabIndex = 0;
+            this.panel1Principal.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -390,27 +400,6 @@
             this.btnSalirSistema.UseVisualStyleBackColor = false;
             this.btnSalirSistema.Click += new System.EventHandler(this.btnSalirSistema_Click);
             // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(281, 295);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(80, 17);
-            this.checkBox1.TabIndex = 7;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // panel1Principal
-            // 
-            this.panel1Principal.BackgroundImage = global::FORCADEL.Properties.Resources.FORCADELL3;
-            this.panel1Principal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1Principal.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1Principal.Location = new System.Drawing.Point(10, 0);
-            this.panel1Principal.Name = "panel1Principal";
-            this.panel1Principal.Size = new System.Drawing.Size(195, 100);
-            this.panel1Principal.TabIndex = 0;
-            this.panel1Principal.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
             // MenusPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -418,7 +407,6 @@
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(578, 527);
-            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.radioVisitantes);
             this.Controls.Add(this.btnSalirSistema);
             this.Controls.Add(this.radioEmpleados);
@@ -472,6 +460,5 @@
         private System.Windows.Forms.Button btnVendidoACliente;
         private System.Windows.Forms.Button btnArticulosFacturados;
         private System.Windows.Forms.Button btnSalirSistema;
-        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
