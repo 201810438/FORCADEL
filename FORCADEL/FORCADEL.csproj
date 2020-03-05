@@ -185,5 +185,11 @@
   <ItemGroup>
     <None Include="Resources\FORCADELL1.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CAPA_Entidades\CAPA_Entidades.csproj">
+      <Project>{4a2b8097-425b-48be-8c78-8eb3d772d397}</Project>
+      <Name>CAPA_Entidades</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
