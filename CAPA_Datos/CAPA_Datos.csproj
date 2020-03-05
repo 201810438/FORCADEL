@@ -43,5 +43,15 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CAPA_Entidades\CAPA_Entidades.csproj">
+      <Project>{4a2b8097-425b-48be-8c78-8eb3d772d397}</Project>
+      <Name>CAPA_Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CAPA_Logica\CAPA_Logica.csproj">
+      <Project>{ab5df05e-21eb-45e6-9d95-05879edc0e44}</Project>
+      <Name>CAPA_Logica</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
