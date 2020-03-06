@@ -191,5 +191,32 @@
       <Name>CAPA_Entidades</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LIMPIAR1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eLIMINAR.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MODIFICAR.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LIMPIAR2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DISKGUARDAR.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LIMPIAR3.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -34,5 +34,10 @@ namespace FORCADEL
             txtEmail.Text = "";
 
         }
+
+        private void FormModificarClientes_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

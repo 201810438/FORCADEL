@@ -33,5 +33,10 @@ namespace FORCADEL
         {
             this.Close();
         }
+
+        private void FormElimiarClientes_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
